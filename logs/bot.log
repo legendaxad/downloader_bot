@@ -1,0 +1,34 @@
+2026-08-27 05:17:33 | INFO | downloader_bot | Bot is starting...
+2026-08-27 05:17:56 | INFO | downloader_bot | Video processing started | quality=720p
+2026-08-27 05:17:56 | INFO | downloader_bot | Download started | quality=720p | url=https://youtu.be/c3hGzK-gwBk?si=_NaEexREmEN-9sm-
+2026-08-27 05:17:59 | INFO | downloader_bot | Download completed | file=downloads/c3hGzK-gwBk_720p.mp4
+2026-08-27 05:17:59 | INFO | downloader_bot | Video download completed | quality=720p | file=downloads/c3hGzK-gwBk_720p.mp4
+2026-08-27 05:17:59 | ERROR | downloader_bot | Unexpected error during video processing
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/handlers/callbacks.py", line 123, in handle_quality_callback
+    media_service.prepare_for_telegram(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        file_path
+        ^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/services/media.py", line 149, in prepare_for_telegram
+    logger.info(
+    ^^^^^^
+NameError: name 'logger' is not defined
+2026-08-27 05:19:59 | INFO | downloader_bot | Bot is starting...
+2026-08-27 05:20:05 | WARNING | downloader_bot | Video URL expired | quality=720p
+2026-08-27 05:20:19 | INFO | downloader_bot | Video processing started | quality=720p
+2026-08-27 05:20:20 | INFO | downloader_bot | Download started | quality=720p | url=https://youtu.be/c3hGzK-gwBk?si=_NaEexREmEN-9sm-
+2026-08-27 05:20:33 | INFO | downloader_bot | Download completed | file=downloads/c3hGzK-gwBk_720p.mp4
+2026-08-27 05:20:33 | INFO | downloader_bot | Video download completed | quality=720p | file=downloads/c3hGzK-gwBk_720p.mp4
+2026-08-27 05:20:34 | INFO | downloader_bot | Media already Telegram compatible | file=downloads/c3hGzK-gwBk_720p.mp4
+2026-08-27 05:20:34 | INFO | downloader_bot | Media processing completed | file=downloads/c3hGzK-gwBk_720p_telegram.mp4
+2026-08-27 05:20:35 | INFO | downloader_bot | Telegram upload started | file=downloads/c3hGzK-gwBk_720p_telegram.mp4
+2026-08-27 05:20:49 | INFO | downloader_bot | Telegram upload completed | file=downloads/c3hGzK-gwBk_720p_telegram.mp4
+2026-08-27 05:20:49 | INFO | downloader_bot | Video processing completed successfully | quality=720p
+2026-08-27 05:20:50 | INFO | downloader_bot | Temporary file deleted | file=downloads/c3hGzK-gwBk_720p.mp4
+2026-08-27 05:20:50 | INFO | downloader_bot | Temporary file deleted | file=downloads/c3hGzK-gwBk_720p_telegram.mp4
+2026-08-27 05:20:50 | INFO | downloader_bot | Temporary files cleanup completed
+2026-08-27 05:58:08 | INFO | downloader_bot | Download started | quality=360p | url=https://youtu.be/2FCjSA-92lM?si=9mdgxCBUmo1kgftq
+2026-08-27 05:58:13 | INFO | downloader_bot | Download completed | file=downloads/2FCjSA-92lM_360p.mp4

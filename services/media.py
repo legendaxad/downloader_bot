@@ -1,8 +1,8 @@
 from pathlib import Path
 import json
 import subprocess
-
-
+from utils.exceptions import MediaProcessingError
+from utils.logger import logger
 class MediaService:
 
     def inspect(self, file_path: Path) -> dict:
@@ -126,10 +126,16 @@ class MediaService:
             str(output_path),
         ]
 
-        subprocess.run(
-            command,
-            check=True,
-        )
+        try:
+            subprocess.run(
+                command,
+                check=True,
+            )
+
+        except subprocess.CalledProcessError as error:
+            raise MediaProcessingError(
+                "Failed to process video."
+            ) from error
 
         return output_path
 
@@ -140,14 +146,16 @@ class MediaService:
         file_path = Path(file_path)
 
         if self.is_telegram_compatible(file_path):
-            print(
-                "Already Telegram compatible."
+            logger.info(
+                "Media already Telegram compatible | file=%s",
+                file_path,
             )
 
             return self.remux(file_path)
 
-        print(
-            "Video requires transcoding."
+        logger.info(
+            "Media requires transcoding | file=%s",
+            file_path,
         )
 
         return self.transcode(file_path)

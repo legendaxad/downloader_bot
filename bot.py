@@ -1,10 +1,11 @@
 from loader import create_application
+from utils.logger import logger
 
 
 def main() -> None:
     application = create_application()
 
-    print("Bot is starting...")
+    logger.info("Bot is starting...")
 
     application.run_polling()
 
