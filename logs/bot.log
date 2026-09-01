@@ -32,3 +32,3306 @@ NameError: name 'logger' is not defined
 2026-08-27 05:20:50 | INFO | downloader_bot | Temporary files cleanup completed
 2026-08-27 05:58:08 | INFO | downloader_bot | Download started | quality=360p | url=https://youtu.be/2FCjSA-92lM?si=9mdgxCBUmo1kgftq
 2026-08-27 05:58:13 | INFO | downloader_bot | Download completed | file=downloads/2FCjSA-92lM_360p.mp4
+2026-09-01 21:14:43 | INFO | downloader_bot | Bot is starting...
+2026-09-01 21:17:51 | INFO | downloader_bot | Video processing started | quality=426p
+2026-09-01 21:17:52 | INFO | downloader_bot | Download started | quality=426p | url=https://youtube.com/shorts/408X4H5D4t0?si=IzCP6VgIGo0XXIDM
+2026-09-01 21:17:56 | INFO | downloader_bot | Download completed | file=downloads/408X4H5D4t0_426p.mp4
+2026-09-01 21:17:56 | INFO | downloader_bot | Video download completed | quality=426p | file=downloads/408X4H5D4t0_426p.mp4
+2026-09-01 21:17:56 | INFO | downloader_bot | Media already Telegram compatible | file=downloads/408X4H5D4t0_426p.mp4
+2026-09-01 21:17:56 | INFO | downloader_bot | Media processing completed | file=downloads/408X4H5D4t0_426p_telegram.mp4
+2026-09-01 21:17:57 | INFO | downloader_bot | Telegram upload started | file=downloads/408X4H5D4t0_426p_telegram.mp4
+2026-09-01 21:17:58 | INFO | downloader_bot | Telegram upload completed | file=downloads/408X4H5D4t0_426p_telegram.mp4
+2026-09-01 21:17:58 | INFO | downloader_bot | Video processing completed successfully | quality=426p
+2026-09-01 21:17:58 | INFO | downloader_bot | Temporary file deleted | file=downloads/408X4H5D4t0_426p.mp4
+2026-09-01 21:17:58 | INFO | downloader_bot | Temporary file deleted | file=downloads/408X4H5D4t0_426p_telegram.mp4
+2026-09-01 21:17:58 | INFO | downloader_bot | Temporary files cleanup completed
+2026-09-01 21:20:46 | INFO | downloader_bot | Bot is starting...
+2026-09-01 21:21:32 | INFO | downloader_bot | Video processing started | quality=1080p
+2026-09-01 21:21:32 | INFO | downloader_bot | Download started | quality=1080p | url=https://youtube.com/shorts/c26aYY1E5t4?si=kROqm0W6hTAqt-Wj
+2026-09-01 21:21:37 | INFO | downloader_bot | Download completed | file=downloads/c26aYY1E5t4_854p.mp4
+2026-09-01 21:21:37 | INFO | downloader_bot | Video download completed | quality=1080p | file=downloads/c26aYY1E5t4_854p.mp4
+2026-09-01 21:21:37 | INFO | downloader_bot | Media already Telegram compatible | file=downloads/c26aYY1E5t4_854p.mp4
+2026-09-01 21:21:37 | INFO | downloader_bot | Media processing completed | file=downloads/c26aYY1E5t4_854p_telegram.mp4
+2026-09-01 21:21:38 | ERROR | downloader_bot | Unexpected error during video processing
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/handlers/callbacks.py", line 141, in handle_quality_callback
+    await telegram_service.send_video(
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        query.message,
+        ^^^^^^^^^^^^^^
+        processed_path,
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: TelegramService.send_video() missing 1 required positional argument: 'file_path'
+2026-09-01 21:21:38 | INFO | downloader_bot | Temporary file deleted | file=downloads/c26aYY1E5t4_854p.mp4
+2026-09-01 21:21:38 | INFO | downloader_bot | Temporary file deleted | file=downloads/c26aYY1E5t4_854p_telegram.mp4
+2026-09-01 21:21:38 | INFO | downloader_bot | Temporary files cleanup completed
+2026-09-01 21:22:10 | INFO | downloader_bot | Bot is starting...
+2026-09-01 21:24:15 | INFO | downloader_bot | Bot is starting...
+2026-09-01 21:24:26 | INFO | downloader_bot | Video processing started | quality=1080p
+2026-09-01 21:24:26 | INFO | downloader_bot | Download started | quality=1080p | url=https://youtube.com/shorts/c26aYY1E5t4?si=kROqm0W6hTAqt-Wj
+2026-09-01 21:24:31 | INFO | downloader_bot | Download completed | file=downloads/c26aYY1E5t4_854p.mp4
+2026-09-01 21:24:31 | INFO | downloader_bot | Video download completed | quality=1080p | file=downloads/c26aYY1E5t4_854p.mp4
+2026-09-01 21:24:31 | INFO | downloader_bot | Media already Telegram compatible | file=downloads/c26aYY1E5t4_854p.mp4
+2026-09-01 21:24:31 | INFO | downloader_bot | Media processing completed | file=downloads/c26aYY1E5t4_854p_telegram.mp4
+2026-09-01 21:24:32 | ERROR | downloader_bot | Unexpected error during video processing
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/handlers/callbacks.py", line 141, in handle_quality_callback
+    await telegram_service.send_video(
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        query.message,
+        ^^^^^^^^^^^^^^
+        processed_path,
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: TelegramService.send_video() missing 1 required positional argument: 'file_path'
+2026-09-01 21:24:32 | INFO | downloader_bot | Temporary file deleted | file=downloads/c26aYY1E5t4_854p.mp4
+2026-09-01 21:24:32 | INFO | downloader_bot | Temporary file deleted | file=downloads/c26aYY1E5t4_854p_telegram.mp4
+2026-09-01 21:24:32 | INFO | downloader_bot | Temporary files cleanup completed
+2026-09-01 21:25:20 | INFO | downloader_bot | Video processing started | quality=426p
+2026-09-01 21:25:20 | INFO | downloader_bot | Download started | quality=426p | url=https://youtube.com/shorts/c26aYY1E5t4?si=kROqm0W6hTAqt-Wj
+2026-09-01 21:25:23 | INFO | downloader_bot | Download completed | file=downloads/c26aYY1E5t4_426p.mp4
+2026-09-01 21:25:23 | INFO | downloader_bot | Video download completed | quality=426p | file=downloads/c26aYY1E5t4_426p.mp4
+2026-09-01 21:25:24 | INFO | downloader_bot | Media already Telegram compatible | file=downloads/c26aYY1E5t4_426p.mp4
+2026-09-01 21:25:24 | INFO | downloader_bot | Media processing completed | file=downloads/c26aYY1E5t4_426p_telegram.mp4
+2026-09-01 21:25:24 | ERROR | downloader_bot | Unexpected error during video processing
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/handlers/callbacks.py", line 141, in handle_quality_callback
+    await telegram_service.send_video(
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        query.message,
+        ^^^^^^^^^^^^^^
+        processed_path,
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: TelegramService.send_video() missing 1 required positional argument: 'file_path'
+2026-09-01 21:25:25 | INFO | downloader_bot | Temporary file deleted | file=downloads/c26aYY1E5t4_426p.mp4
+2026-09-01 21:25:25 | INFO | downloader_bot | Temporary file deleted | file=downloads/c26aYY1E5t4_426p_telegram.mp4
+2026-09-01 21:25:25 | INFO | downloader_bot | Temporary files cleanup completed
+2026-09-01 21:26:33 | INFO | downloader_bot | Bot is starting...
+2026-09-01 21:26:49 | INFO | downloader_bot | Video processing started | quality=1080p
+2026-09-01 21:26:49 | INFO | downloader_bot | Download started | quality=1080p | url=https://youtube.com/shorts/c26aYY1E5t4?si=kROqm0W6hTAqt-Wj
+2026-09-01 21:26:53 | INFO | downloader_bot | Download completed | file=downloads/c26aYY1E5t4_854p.mp4
+2026-09-01 21:26:53 | INFO | downloader_bot | Video download completed | quality=1080p | file=downloads/c26aYY1E5t4_854p.mp4
+2026-09-01 21:26:53 | INFO | downloader_bot | Media already Telegram compatible | file=downloads/c26aYY1E5t4_854p.mp4
+2026-09-01 21:26:53 | INFO | downloader_bot | Media processing completed | file=downloads/c26aYY1E5t4_854p_telegram.mp4
+2026-09-01 21:26:53 | INFO | downloader_bot | Uploading video to Telegram | chat_id=1996273189 | file=downloads/c26aYY1E5t4_854p_telegram.mp4
+2026-09-01 21:26:56 | INFO | downloader_bot | Video uploaded successfully | chat_id=1996273189 | file=downloads/c26aYY1E5t4_854p_telegram.mp4
+2026-09-01 21:26:56 | INFO | downloader_bot | Video processing completed successfully | quality=1080p
+2026-09-01 21:26:57 | INFO | downloader_bot | Temporary file deleted | file=downloads/c26aYY1E5t4_854p.mp4
+2026-09-01 21:26:57 | INFO | downloader_bot | Temporary file deleted | file=downloads/c26aYY1E5t4_854p_telegram.mp4
+2026-09-01 21:26:57 | INFO | downloader_bot | Temporary files cleanup completed
+2026-09-01 21:37:12 | INFO | downloader_bot | Download started | quality=720p | url=https://youtube.com/test
+2026-09-01 21:41:09 | INFO | downloader_bot | Worker started...
+2026-09-01 21:41:09 | INFO | downloader_bot | Job received | job=81c4873d-bf97-422b-b09c-295fa3eb7126 | quality=720p
+2026-09-01 21:41:09 | INFO | downloader_bot | Download started | job=81c4873d-bf97-422b-b09c-295fa3eb7126 | quality=720p
+2026-09-01 21:41:09 | INFO | downloader_bot | Download started | quality=720p | url=https://youtube.com/test
+2026-09-01 21:44:37 | INFO | downloader_bot | Worker started...
+2026-09-01 21:44:42 | INFO | downloader_bot | Job received | job=488e8f34-bf5b-4fc8-978e-cc958d83f113 | quality=720p
+2026-09-01 21:44:42 | INFO | downloader_bot | Download started | job=488e8f34-bf5b-4fc8-978e-cc958d83f113 | quality=720p
+2026-09-01 21:44:42 | INFO | downloader_bot | Download started | quality=720p | url=https://youtu.be/307A_HhcymU?si=dJb_vm5YcYC6uXFG
+2026-09-01 21:44:48 | INFO | downloader_bot | Download completed | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 21:44:48 | INFO | downloader_bot | Download completed | job=488e8f34-bf5b-4fc8-978e-cc958d83f113 | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 21:44:48 | INFO | downloader_bot | Processing started | job=488e8f34-bf5b-4fc8-978e-cc958d83f113
+2026-09-01 21:44:48 | INFO | downloader_bot | Job completed | job=488e8f34-bf5b-4fc8-978e-cc958d83f113
+2026-09-01 21:44:48 | INFO | downloader_bot | Temporary file deleted | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 21:44:53 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 27, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 50, in dequeue
+    _, job_data = await redis_client.blpop(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+        DOWNLOAD_QUEUE,
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:45:00 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 27, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 50, in dequeue
+    _, job_data = await redis_client.blpop(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+        DOWNLOAD_QUEUE,
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:45:07 | INFO | downloader_bot | Worker started...
+2026-09-01 21:45:12 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 27, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 50, in dequeue
+    _, job_data = await redis_client.blpop(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+        DOWNLOAD_QUEUE,
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:45:19 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 27, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 50, in dequeue
+    _, job_data = await redis_client.blpop(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+        DOWNLOAD_QUEUE,
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:45:21 | INFO | downloader_bot | Job received | job=f3305e82-6ecf-4916-9f68-4b2d488edf8f | quality=720p
+2026-09-01 21:45:21 | INFO | downloader_bot | Download started | job=f3305e82-6ecf-4916-9f68-4b2d488edf8f | quality=720p
+2026-09-01 21:45:21 | INFO | downloader_bot | Download started | quality=720p | url=https://youtu.be/307A_HhcymU?si=dJb_vm5YcYC6uXFG
+2026-09-01 21:45:26 | INFO | downloader_bot | Download completed | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 21:45:26 | INFO | downloader_bot | Download completed | job=f3305e82-6ecf-4916-9f68-4b2d488edf8f | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 21:45:26 | INFO | downloader_bot | Processing started | job=f3305e82-6ecf-4916-9f68-4b2d488edf8f
+2026-09-01 21:45:26 | INFO | downloader_bot | Job completed | job=f3305e82-6ecf-4916-9f68-4b2d488edf8f
+2026-09-01 21:45:26 | INFO | downloader_bot | Temporary file deleted | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 21:45:31 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 27, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 50, in dequeue
+    _, job_data = await redis_client.blpop(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+        DOWNLOAD_QUEUE,
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:45:38 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 27, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 50, in dequeue
+    _, job_data = await redis_client.blpop(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+        DOWNLOAD_QUEUE,
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:45:45 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 27, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 50, in dequeue
+    _, job_data = await redis_client.blpop(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+        DOWNLOAD_QUEUE,
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:45:52 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 27, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 50, in dequeue
+    _, job_data = await redis_client.blpop(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+        DOWNLOAD_QUEUE,
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:52:29 | INFO | downloader_bot | Worker started...
+2026-09-01 21:52:34 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:52:41 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:52:48 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:52:53 | INFO | downloader_bot | Job received | job=11b1c4e4-7d07-4f6d-8acc-75f478b4a06d | quality=720p
+2026-09-01 21:52:53 | INFO | downloader_bot | Download started | job=11b1c4e4-7d07-4f6d-8acc-75f478b4a06d | quality=720p
+2026-09-01 21:52:53 | INFO | downloader_bot | Download started | quality=720p | url=https://youtu.be/307A_HhcymU?si=dJb_vm5YcYC6uXFG
+2026-09-01 21:52:59 | INFO | downloader_bot | Download completed | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 21:52:59 | INFO | downloader_bot | Download completed | job=11b1c4e4-7d07-4f6d-8acc-75f478b4a06d | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 21:52:59 | INFO | downloader_bot | Processing started | job=11b1c4e4-7d07-4f6d-8acc-75f478b4a06d
+2026-09-01 21:52:59 | INFO | downloader_bot | Job completed | job=11b1c4e4-7d07-4f6d-8acc-75f478b4a06d
+2026-09-01 21:53:04 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:53:11 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:53:18 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:53:25 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:53:32 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:53:39 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:53:46 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:53:53 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:54:01 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:54:08 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:54:15 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:54:22 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:54:29 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:54:36 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:54:43 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:54:50 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:54:57 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:55:04 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:55:11 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:55:18 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:55:25 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:55:32 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    result = await redis_client.blpop(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:55:39 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    
+    
+    ...<2 lines>...
+            DOWNLOAD_QUEUE,
+            ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:55:46 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    
+    
+    ...<2 lines>...
+            DOWNLOAD_QUEUE,
+            ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:55:53 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    
+    
+    ...<2 lines>...
+            DOWNLOAD_QUEUE,
+            ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:56:00 | ERROR | downloader_bot | Worker error
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1286, in read_response
+    response = await self._read_response_from_parser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1335, in _read_response_from_parser
+    return await self._parser.read_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 185, in read_response
+    response = await self._read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        disable_decoding=disable_decoding, push_request=push_request
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/resp3.py", line 197, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/_parsers/base.py", line 587, in _readline
+    data = await self._stream.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 569, in readline
+    line = await self.readuntil(sep)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 684, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/streams.py", line 546, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1283, in read_response
+    async with timeout_context as active_timeout:
+               ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/worker.py", line 18, in worker
+    job = await queue.dequeue()
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/services/queue.py", line 49, in dequeue
+    
+    
+    ...<2 lines>...
+            DOWNLOAD_QUEUE,
+            ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 946, in execute_command
+    result = await conn.retry.call_with_retry(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 81, in call_with_retry
+    raise error
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/retry.py", line 69, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 871, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/client.py", line 993, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/redis/asyncio/connection.py", line 1310, in read_response
+    raise TimeoutError(f"Timeout reading from {host_error}")
+redis.exceptions.TimeoutError: Timeout reading from localhost:6379
+2026-09-01 21:56:05 | INFO | downloader_bot | Worker shutting down...
+2026-09-01 21:56:05 | INFO | downloader_bot | Redis connection closed
+2026-09-01 21:57:21 | INFO | downloader_bot | Worker started...
+2026-09-01 21:57:26 | INFO | downloader_bot | Job received | job=86580de2-bb7d-47ec-8c87-30e6ac2487c4 | quality=720p
+2026-09-01 21:57:26 | INFO | downloader_bot | Download started | job=86580de2-bb7d-47ec-8c87-30e6ac2487c4 | quality=720p
+2026-09-01 21:57:26 | INFO | downloader_bot | Download started | quality=720p | url=https://youtu.be/307A_HhcymU?si=dJb_vm5YcYC6uXFG
+2026-09-01 21:57:29 | INFO | downloader_bot | Download completed | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 21:57:29 | INFO | downloader_bot | Download completed | job=86580de2-bb7d-47ec-8c87-30e6ac2487c4 | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 21:57:29 | INFO | downloader_bot | Processing started | job=86580de2-bb7d-47ec-8c87-30e6ac2487c4
+2026-09-01 21:57:29 | INFO | downloader_bot | Job completed | job=86580de2-bb7d-47ec-8c87-30e6ac2487c4
+2026-09-01 21:58:48 | INFO | downloader_bot | Worker shutting down...
+2026-09-01 21:58:48 | INFO | downloader_bot | Redis connection closed
+2026-09-01 21:58:50 | INFO | downloader_bot | Worker started...
+2026-09-01 21:59:24 | INFO | downloader_bot | Bot is starting...
+2026-09-01 21:59:32 | INFO | downloader_bot | Video processing started | quality=720p
+2026-09-01 21:59:33 | INFO | downloader_bot | Download started | quality=720p | url=https://youtu.be/307A_HhcymU?si=dJb_vm5YcYC6uXFG
+2026-09-01 21:59:35 | INFO | downloader_bot | Download completed | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 21:59:35 | INFO | downloader_bot | Video download completed | quality=720p | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 21:59:35 | INFO | downloader_bot | Media already Telegram compatible | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 21:59:36 | INFO | downloader_bot | Media processing completed | file=downloads/307A_HhcymU_720p_telegram.mp4
+2026-09-01 21:59:36 | INFO | downloader_bot | Uploading video to Telegram | chat_id=1996273189 | file=downloads/307A_HhcymU_720p_telegram.mp4
+2026-09-01 21:59:41 | INFO | downloader_bot | Video uploaded successfully | chat_id=1996273189 | file=downloads/307A_HhcymU_720p_telegram.mp4
+2026-09-01 21:59:41 | INFO | downloader_bot | Video processing completed successfully | quality=720p
+2026-09-01 21:59:41 | INFO | downloader_bot | Temporary file deleted | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 21:59:41 | INFO | downloader_bot | Temporary file deleted | file=downloads/307A_HhcymU_720p_telegram.mp4
+2026-09-01 21:59:41 | INFO | downloader_bot | Temporary files cleanup completed
+2026-09-01 21:59:54 | WARNING | downloader_bot | Video URL expired | quality=1080p
+2026-09-01 22:01:49 | INFO | downloader_bot | Video processing started | quality=1080p
+2026-09-01 22:01:50 | INFO | downloader_bot | Download started | quality=1080p | url=https://youtu.be/307A_HhcymU?si=dJb_vm5YcYC6uXFG
+2026-09-01 22:02:03 | INFO | downloader_bot | Download completed | file=downloads/307A_HhcymU_1080p.mp4
+2026-09-01 22:02:03 | INFO | downloader_bot | Video download completed | quality=1080p | file=downloads/307A_HhcymU_1080p.mp4
+2026-09-01 22:02:04 | INFO | downloader_bot | Media already Telegram compatible | file=downloads/307A_HhcymU_1080p.mp4
+2026-09-01 22:02:04 | INFO | downloader_bot | Media processing completed | file=downloads/307A_HhcymU_1080p_telegram.mp4
+2026-09-01 22:02:05 | INFO | downloader_bot | Uploading video to Telegram | chat_id=1996273189 | file=downloads/307A_HhcymU_1080p_telegram.mp4
+2026-09-01 22:02:13 | INFO | downloader_bot | Video uploaded successfully | chat_id=1996273189 | file=downloads/307A_HhcymU_1080p_telegram.mp4
+2026-09-01 22:02:13 | INFO | downloader_bot | Video processing completed successfully | quality=1080p
+2026-09-01 22:02:14 | INFO | downloader_bot | Temporary file deleted | file=downloads/307A_HhcymU_1080p.mp4
+2026-09-01 22:02:14 | INFO | downloader_bot | Temporary file deleted | file=downloads/307A_HhcymU_1080p_telegram.mp4
+2026-09-01 22:02:14 | INFO | downloader_bot | Temporary files cleanup completed
+2026-09-01 22:02:37 | INFO | downloader_bot | Worker shutting down...
+2026-09-01 22:02:37 | INFO | downloader_bot | Redis connection closed
+2026-09-01 22:03:05 | INFO | downloader_bot | Worker started...
+2026-09-01 22:03:20 | INFO | downloader_bot | Job received | job=cc58d4c1-0732-41b6-9e06-bb39944f9a80 | quality=720p
+2026-09-01 22:03:20 | INFO | downloader_bot | Download started | job=cc58d4c1-0732-41b6-9e06-bb39944f9a80 | quality=720p
+2026-09-01 22:03:20 | INFO | downloader_bot | Download started | quality=720p | url=https://youtu.be/307A_HhcymU?si=dJb_vm5YcYC6uXFG
+2026-09-01 22:03:26 | INFO | downloader_bot | Download completed | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 22:03:26 | INFO | downloader_bot | Download completed | job=cc58d4c1-0732-41b6-9e06-bb39944f9a80 | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 22:03:26 | INFO | downloader_bot | Processing started | job=cc58d4c1-0732-41b6-9e06-bb39944f9a80
+2026-09-01 22:03:26 | INFO | downloader_bot | Job completed | job=cc58d4c1-0732-41b6-9e06-bb39944f9a80
+2026-09-01 22:03:46 | INFO | downloader_bot | Bot is starting...
+2026-09-01 22:03:56 | INFO | downloader_bot | Video processing started | quality=720p
+2026-09-01 22:03:56 | INFO | downloader_bot | Download started | quality=720p | url=https://youtu.be/307A_HhcymU?si=dJb_vm5YcYC6uXFG
+2026-09-01 22:03:59 | INFO | downloader_bot | Download completed | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 22:03:59 | INFO | downloader_bot | Video download completed | quality=720p | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 22:03:59 | INFO | downloader_bot | Media already Telegram compatible | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 22:03:59 | INFO | downloader_bot | Media processing completed | file=downloads/307A_HhcymU_720p_telegram.mp4
+2026-09-01 22:03:59 | INFO | downloader_bot | Uploading video to Telegram | chat_id=1996273189 | file=downloads/307A_HhcymU_720p_telegram.mp4
+2026-09-01 22:04:12 | INFO | downloader_bot | Video uploaded successfully | chat_id=1996273189 | file=downloads/307A_HhcymU_720p_telegram.mp4
+2026-09-01 22:04:12 | INFO | downloader_bot | Video processing completed successfully | quality=720p
+2026-09-01 22:04:12 | INFO | downloader_bot | Temporary file deleted | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 22:04:12 | INFO | downloader_bot | Temporary file deleted | file=downloads/307A_HhcymU_720p_telegram.mp4
+2026-09-01 22:04:12 | INFO | downloader_bot | Temporary files cleanup completed
+2026-09-01 22:04:18 | INFO | downloader_bot | Worker shutting down...
+2026-09-01 22:04:18 | INFO | downloader_bot | Redis connection closed
+2026-09-01 22:04:26 | INFO | downloader_bot | Worker started...
+2026-09-01 22:04:35 | INFO | downloader_bot | Video processing started | quality=480p
+2026-09-01 22:04:35 | INFO | downloader_bot | Download started | quality=480p | url=https://youtu.be/307A_HhcymU?si=dJb_vm5YcYC6uXFG
+2026-09-01 22:04:40 | INFO | downloader_bot | Download completed | file=downloads/307A_HhcymU_480p.mp4
+2026-09-01 22:04:40 | INFO | downloader_bot | Video download completed | quality=480p | file=downloads/307A_HhcymU_480p.mp4
+2026-09-01 22:04:40 | INFO | downloader_bot | Media already Telegram compatible | file=downloads/307A_HhcymU_480p.mp4
+2026-09-01 22:04:40 | INFO | downloader_bot | Media processing completed | file=downloads/307A_HhcymU_480p_telegram.mp4
+2026-09-01 22:04:41 | INFO | downloader_bot | Uploading video to Telegram | chat_id=1996273189 | file=downloads/307A_HhcymU_480p_telegram.mp4
+2026-09-01 22:04:45 | INFO | downloader_bot | Video uploaded successfully | chat_id=1996273189 | file=downloads/307A_HhcymU_480p_telegram.mp4
+2026-09-01 22:04:45 | INFO | downloader_bot | Video processing completed successfully | quality=480p
+2026-09-01 22:04:45 | INFO | downloader_bot | Temporary file deleted | file=downloads/307A_HhcymU_480p.mp4
+2026-09-01 22:04:45 | INFO | downloader_bot | Temporary file deleted | file=downloads/307A_HhcymU_480p_telegram.mp4
+2026-09-01 22:04:45 | INFO | downloader_bot | Temporary files cleanup completed
+2026-09-01 22:11:35 | INFO | downloader_bot | Bot is starting...
+2026-09-01 22:12:12 | INFO | downloader_bot | Video processing started | quality=1080p
+2026-09-01 22:12:12 | INFO | downloader_bot | Download started | quality=1080p | url=https://youtu.be/307A_HhcymU?si=dJb_vm5YcYC6uXFG
+2026-09-01 22:12:23 | INFO | downloader_bot | Download completed | file=downloads/307A_HhcymU_1080p.mp4
+2026-09-01 22:12:23 | INFO | downloader_bot | Video download completed | quality=1080p | file=downloads/307A_HhcymU_1080p.mp4
+2026-09-01 22:12:24 | INFO | downloader_bot | Media already Telegram compatible | file=downloads/307A_HhcymU_1080p.mp4
+2026-09-01 22:12:24 | INFO | downloader_bot | Media processing completed | file=downloads/307A_HhcymU_1080p_telegram.mp4
+2026-09-01 22:12:24 | INFO | downloader_bot | Uploading video to Telegram | chat_id=1996273189 | file=downloads/307A_HhcymU_1080p_telegram.mp4
+2026-09-01 22:12:44 | ERROR | downloader_bot | Telegram upload failed | chat_id=1996273189 | file=downloads/307A_HhcymU_1080p_telegram.mp4
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/httpcore/_async/connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/httpcore/_async/http11.py", line 136, in handle_async_request
+    raise exc
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/httpcore/_async/http11.py", line 88, in handle_async_request
+    await self._send_request_body(**kwargs)
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/httpcore/_async/http11.py", line 159, in _send_request_body
+    await self._send_event(event, timeout=timeout)
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/httpcore/_async/http11.py", line 166, in _send_event
+    await self._network_stream.write(bytes_to_send, timeout=timeout)
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/httpcore/_backends/anyio.py", line 48, in write
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.WriteTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.WriteTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Python/bots/downloader/services/telegram.py", line 28, in send_video
+    await bot.send_video(
+    ...<2 lines>...
+    )
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 3503, in send_video
+    return await super().send_video(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<32 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/telegram/_bot.py", line 2279, in send_video
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<22 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 638, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/telegram/_bot.py", line 828, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/mac/Python/bots/downloader/venv/lib/python3.14/site-packages/telegram/request/_httpxrequest.py", line 296, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2026-09-01 22:12:44 | ERROR | downloader_bot | Telegram upload failed | file=downloads/307A_HhcymU_1080p_telegram.mp4
+2026-09-01 22:12:45 | INFO | downloader_bot | Temporary file deleted | file=downloads/307A_HhcymU_1080p.mp4
+2026-09-01 22:12:45 | INFO | downloader_bot | Temporary file deleted | file=downloads/307A_HhcymU_1080p_telegram.mp4
+2026-09-01 22:12:45 | INFO | downloader_bot | Temporary files cleanup completed
+2026-09-01 22:15:12 | INFO | downloader_bot | Video processing started | quality=480p
+2026-09-01 22:15:13 | INFO | downloader_bot | Download started | quality=480p | url=https://youtu.be/307A_HhcymU?si=dJb_vm5YcYC6uXFG
+2026-09-01 22:15:19 | INFO | downloader_bot | Download completed | file=downloads/307A_HhcymU_480p.mp4
+2026-09-01 22:15:19 | INFO | downloader_bot | Video download completed | quality=480p | file=downloads/307A_HhcymU_480p.mp4
+2026-09-01 22:15:20 | INFO | downloader_bot | Media already Telegram compatible | file=downloads/307A_HhcymU_480p.mp4
+2026-09-01 22:15:20 | INFO | downloader_bot | Media processing completed | file=downloads/307A_HhcymU_480p_telegram.mp4
+2026-09-01 22:15:20 | INFO | downloader_bot | Uploading video to Telegram | chat_id=1996273189 | file=downloads/307A_HhcymU_480p_telegram.mp4
+2026-09-01 22:15:25 | INFO | downloader_bot | Worker shutting down...
+2026-09-01 22:15:25 | INFO | downloader_bot | Redis connection closed
+2026-09-01 22:15:27 | INFO | downloader_bot | Worker started...
+2026-09-01 22:16:07 | INFO | downloader_bot | Job received | job=cbd12441-d31e-4af8-8a77-a2bb428618d1 | quality=720p
+2026-09-01 22:16:07 | INFO | downloader_bot | Download started | job=cbd12441-d31e-4af8-8a77-a2bb428618d1 | quality=720p
+2026-09-01 22:16:07 | INFO | downloader_bot | Download started | quality=720p | url=https://youtu.be/307A_HhcymU?si=dJb_vm5YcYC6uXFG
+2026-09-01 22:16:13 | INFO | downloader_bot | Download completed | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 22:16:13 | INFO | downloader_bot | Download completed | job=cbd12441-d31e-4af8-8a77-a2bb428618d1 | file=downloads/307A_HhcymU_720p.mp4
+2026-09-01 22:16:13 | INFO | downloader_bot | Processing started | job=cbd12441-d31e-4af8-8a77-a2bb428618d1
+2026-09-01 22:16:13 | INFO | downloader_bot | Job completed | job=cbd12441-d31e-4af8-8a77-a2bb428618d1
+2026-09-01 22:22:54 | INFO | downloader_bot | Worker shutting down...
+2026-09-01 22:22:54 | INFO | downloader_bot | Redis connection closed

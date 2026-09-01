@@ -1,13 +1,18 @@
 from pathlib import Path
-from utils.logger import logger
+import asyncio
+
 import yt_dlp
 from yt_dlp.utils import DownloadError
+
+from services.queue import DownloadQueue
 
 from utils.exceptions import (
     DownloadFailedError,
     FormatNotAvailableError,
     VideoUnavailableError,
 )
+
+from utils.logger import logger
 
 
 DOWNLOAD_DIR = Path("downloads")
@@ -16,11 +21,21 @@ DOWNLOAD_DIR.mkdir(exist_ok=True)
 
 class VideoDownloader:
 
+    def __init__(
+        self,
+        queue: DownloadQueue | None = None,
+    ) -> None:
+        self.queue = queue or DownloadQueue()
+
     def download(
         self,
         url: str,
         quality: int,
+        *,
+        job_id: str | None = None,
+        loop: asyncio.AbstractEventLoop | None = None,
     ) -> Path:
+
         options = {
             "format": (
                 f"bestvideo[height<={quality}]"
@@ -41,6 +56,13 @@ class VideoDownloader:
             "merge_output_format": "mp4",
 
             "noplaylist": True,
+
+            "progress_hooks": [
+                self._progress_hook(
+                    job_id,
+                    loop,
+                )
+            ],
         }
 
         try:
@@ -51,6 +73,7 @@ class VideoDownloader:
             )
 
             with yt_dlp.YoutubeDL(options) as ydl:
+
                 info = ydl.extract_info(
                     url,
                     download=True,
@@ -60,10 +83,16 @@ class VideoDownloader:
                     ydl.prepare_filename(info)
                 )
 
-                # When video + audio are merged,
-                # yt-dlp creates an MP4 file.
-                if filepath.suffix != ".mp4":
-                    filepath = filepath.with_suffix(".mp4")
+                # After merging, yt-dlp may change
+                # the extension/container to mp4.
+                if not filepath.exists():
+
+                    merged_path = filepath.with_suffix(
+                        ".mp4"
+                    )
+
+                    if merged_path.exists():
+                        filepath = merged_path
 
                 logger.info(
                     "Download completed | file=%s",
@@ -73,11 +102,7 @@ class VideoDownloader:
                 return filepath
 
         except DownloadError as error:
-            logger.error(
-                "Download failed | url=%s | error=%s",
-                url,
-                error,
-            )
+
             message = str(error).lower()
 
             if (
@@ -100,3 +125,60 @@ class VideoDownloader:
             raise DownloadFailedError(
                 "Video download failed."
             ) from error
+
+    def _progress_hook(
+        self,
+        job_id: str | None,
+        loop: asyncio.AbstractEventLoop | None,
+    ):
+        def hook(data: dict) -> None:
+
+            if not job_id or loop is None:
+                return
+
+            status = data.get("status")
+
+            if status == "downloading":
+
+                total_bytes = (
+                    data.get("total_bytes")
+                    or data.get("total_bytes_estimate")
+                )
+
+                downloaded_bytes = (
+                    data.get("downloaded_bytes", 0)
+                )
+
+                if not total_bytes:
+                    return
+
+                progress = int(
+                    downloaded_bytes
+                    / total_bytes
+                    * 100
+                )
+
+                progress = max(
+                    0,
+                    min(progress, 100),
+                )
+
+                asyncio.run_coroutine_threadsafe(
+                    self.queue.set_progress(
+                        job_id,
+                        progress,
+                    ),
+                    loop,
+                )
+
+            elif status == "finished":
+
+                asyncio.run_coroutine_threadsafe(
+                    self.queue.set_progress(
+                        job_id,
+                        100,
+                    ),
+                    loop,
+                )
+
+        return hook

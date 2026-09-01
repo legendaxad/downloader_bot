@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from telegram import Message
+from telegram import Bot
 from telegram.error import TelegramError
 
 from utils.exceptions import TelegramUploadError
@@ -11,27 +11,37 @@ class TelegramService:
 
     async def send_video(
         self,
-        message: Message,
+        bot: Bot,
+        chat_id: int,
         file_path: Path,
     ) -> None:
-        logger.info(
-            "Telegram upload started | file=%s",
-            file_path,
-        )
 
         try:
-            await message.reply_video(
-                video=file_path,
+            logger.info(
+                "Uploading video to Telegram | "
+                "chat_id=%s | file=%s",
+                chat_id,
+                file_path,
             )
 
+            with file_path.open("rb") as video:
+                await bot.send_video(
+                    chat_id=chat_id,
+                    video=video,
+                )
+
             logger.info(
-                "Telegram upload completed | file=%s",
+                "Video uploaded successfully | "
+                "chat_id=%s | file=%s",
+                chat_id,
                 file_path,
             )
 
         except TelegramError as error:
             logger.exception(
-                "Telegram upload failed | file=%s",
+                "Telegram upload failed | "
+                "chat_id=%s | file=%s",
+                chat_id,
                 file_path,
             )
 
