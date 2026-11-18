@@ -15,3 +15,12 @@ __pycache__/
 
 # Downloaded media files
 downloads/
+# Runtime artefacts
+logs/
+*.log
+dump.rdb
+*.rdb
+appendonly*.aof
+appendonlydir/
+.pytest_cache/
+.coverage

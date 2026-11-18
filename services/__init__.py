@@ -1,11 +1,5 @@
-from .downloader import VideoDownloader
-from .media import MediaService
-from .telegram import TelegramService
-from .video import VideoService
+"""Business services.
 
-__all__ = [
-    "VideoDownloader",
-    "MediaService",
-    "TelegramService",
-    "VideoService",
-]
+Modules are imported explicitly (``from services.downloader import VideoDownloader``)
+so that the downloader can be used without pulling in Telegram or Redis.
+"""

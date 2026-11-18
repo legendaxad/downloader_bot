@@ -1,0 +1,16 @@
+.git
+.gitignore
+.idea
+.DS_Store
+.env
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+downloads/
+logs/
+*.rdb
+appendonlydir/
+tests/
+PROJECT_AUDIT.md

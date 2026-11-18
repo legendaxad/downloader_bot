@@ -1,0 +1,100 @@
+name: downloader-bot
+
+x-app: &app
+  build: .
+  image: downloader-bot:latest
+  env_file: .env
+  environment:
+    REDIS_URL: redis://redis:6379/0
+    MYSQL_HOST: mysql
+    MYSQL_PORT: "3306"
+    LOG_FORMAT: json
+  depends_on:
+    redis:
+      condition: service_healthy
+    mysql:
+      condition: service_healthy
+  restart: unless-stopped
+  logging:
+    driver: json-file
+    options:
+      max-size: "10m"
+      max-file: "5"
+
+services:
+  redis:
+    image: redis:7.4-alpine
+    # AOF persistence so queued tasks survive restarts; never evict queue data.
+    command:
+      - redis-server
+      - --appendonly
+      - "yes"
+      - --appendfsync
+      - everysec
+      - --maxmemory
+      - 256mb
+      - --maxmemory-policy
+      - noeviction
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
+    # No published ports: Redis is reachable only on the internal compose network.
+
+  mysql:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-downloader_bot}
+      MYSQL_USER: ${MYSQL_USER:-downloader}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?set MYSQL_PASSWORD in .env}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?set MYSQL_ROOT_PASSWORD in .env}
+    command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci"]
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -u root -p\"$$MYSQL_ROOT_PASSWORD\" --silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+    restart: unless-stopped
+    # No published ports: MySQL is reachable only on the internal compose network.
+
+  bot:
+    <<: *app
+    command: ["python", "bot.py"]
+    stop_grace_period: 20s
+    healthcheck:
+      test: ["CMD", "python", "healthcheck.py", "bot"]
+      interval: 30s
+      timeout: 10s
+      start_period: 30s
+      retries: 3
+
+  worker:
+    <<: *app
+    command: ["python", "worker.py"]
+    # Must exceed SHUTDOWN_GRACE_SECONDS so running tasks can finish or be re-queued.
+    stop_grace_period: 60s
+    volumes:
+      - downloads:/app/downloads
+    healthcheck:
+      test: ["CMD", "python", "healthcheck.py", "worker"]
+      interval: 30s
+      timeout: 10s
+      start_period: 30s
+      retries: 3
+    deploy:
+      resources:
+        limits:
+          cpus: "2.0"
+          memory: 2g
+
+volumes:
+  mysql-data:
+  redis-data:
+  downloads:
